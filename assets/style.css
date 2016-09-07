@@ -18,6 +18,14 @@ body {
     padding: 15px;
     border-radius:0;
     margin-top: 25px;
+    position: relative;
+    z-index: 1000;
+
+  
+}
+.dropdown {
+    background-color:#fff;
+    color:#000;
 }
 
 
@@ -63,22 +71,21 @@ body {
 
 
 .jumbotron {
-        background: url("../assets/images/bg.jpg") bottom center  fixed;
+        background: url("../assets/images/bg.jpg") center fixed;
     background-size: cover;
-    height: 350px;
+    height: 300px;
+    color:#fff;
+    margin-bottom: 0;
+    border-bottom: 5px solid #003300;
 
 }
-
+.alert {
+    border-radius: 0;
+    margin-bottom: 0;
+}
 .wrapper {
-    margin-top: -80px;
+   
     background-color:#fff;
     color:#000;
 
-}
-
-@media only screen and (min-width: 600px) {
-    .wrapper {
-        background-color:#fff;
-        color:#000;
-    }
 }
