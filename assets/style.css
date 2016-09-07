@@ -1,5 +1,6 @@
 body {
-    background-color: #fff;
+
+    background-color: #f1f1f1;
     color: #000;
     margin: 0;
     font-family: 'roboto', sans-serif;
@@ -13,4 +14,71 @@ body {
 .navbar-wdll{
     height: 80px;
     margin-bottom: 0;
+    background-color:#fff;;
+    padding: 15px;
+    border-radius:0;
+    margin-top: 25px;
+}
+
+
+.logo {
+    position: relative;
+   margin-top: -35px;
+    background-color: #fff;
+ 
+    box-sizing: border-box;
+   
+   
+}
+
+.navbar-wdll ul li a {
+    display: block;
+    color: #003300;
+
+    text-transform: uppercase;
+    font-family: 'roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: normal;
+    -webkit-transition: all 240ms linear;
+    -moz-transition: all 240ms linear;
+    -o-transition: all 240ms linear;
+    -ms-transition: all 240ms linear;
+    transition: all 240ms linear;
+}
+
+.navbar-wdll ul li#active a,
+#nav ul li a:hover {
+    background-color: #fec503;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-wdll .navbar-nav> li> a:hover,
+.navbar-custom .navbar-nav> li> a:focus {
+    background-color: #fec503;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.jumbotron {
+        background: url("../assets/images/bg.jpg") bottom center  fixed;
+    background-size: cover;
+    height: 350px;
+
+}
+
+.wrapper {
+    margin-top: -80px;
+    background-color:#fff;
+    color:#000;
+
+}
+
+@media only screen and (min-width: 600px) {
+    .wrapper {
+        background-color:#fff;
+        color:#000;
+    }
 }
