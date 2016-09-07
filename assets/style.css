@@ -20,6 +20,7 @@ body {
     margin-top: 25px;
     position: relative;
     z-index: 1000;
+    
 
   
 }
@@ -83,9 +84,43 @@ body {
     border-radius: 0;
     margin-bottom: 0;
 }
+
+
+/*content style*/
 .wrapper {
    
     background-color:#fff;
     color:#000;
+    font-family: 'Slabo 27px', serif;
+
+}
+.wrapper h2 /*default post heading*/{
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    
+}
+.wrapper h3 /*default post heading*/{
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    
+}
+
+.content {
+    padding: 15px;
+    color:#000;
+    border-right: 1px soild #003300;
+    
+}
+
+.sidebar {
+    border-right: 1px solid #000;
+}
+
+
+
+/*fooooooter*/
+.footer {
+    background-color:#222;
+    color:#fff;
 
 }
